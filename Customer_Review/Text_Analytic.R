@@ -172,7 +172,7 @@ ggplot(word_probs, aes (term2, beta, fill = as.factor(topic))) +
   geom_col(show.legend = FALSE) +
   facet_wrap (~topic, scales = "free") +
   coord_flip() +
-  ggtitle("Word Counts Based on Department")
+  ggtitle("The insights behind customer reviews")
 
 #The first topic is a collection of words that appear to be connected with the overall positive feedback
   #with dresses (including skirt) with words like, love, flattering, beautiful, fits and length.  
