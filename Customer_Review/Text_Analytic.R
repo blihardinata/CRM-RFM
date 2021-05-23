@@ -9,7 +9,11 @@ library(tidyverse)
 getwd()
 
 #get the dataset
-df <- read.csv("Document/Education/LMU/Portfolio/Tableau/Womens Clothing E-Commerce Reviews.csv")
+#df <- read.csv("Document/Education/LMU/Portfolio/Tableau/Womens Clothing E-Commerce Reviews.csv")
+
+#get the dataset from github
+df <- read.csv("https://raw.githubusercontent.com/blihardinata/R/main/Customer_Review/Womens%20Clothing%20E-Commerce%20Reviews.csv")
+
 
 #Check the overall dataset
 summary(df)
